@@ -463,6 +463,7 @@ ol.publication.A-list li p:before {
 
 ol.nested {
   list-style: none;
+  padding: 0;
   counter-reset: item;
 }
 
