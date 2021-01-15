@@ -28,26 +28,60 @@
 <body>
   <div class="menu-container">
   </div>
-  <div class="content-container" style="background-color: #CBC0AD; padding: 10px">
+  <div class="content-container" style="background-color: #FBF7F1; padding: 10px">
     <div class="content">
       <div class="content-table flex-column">
-        <div class="flex-column" style="background-color: #CBC0AD; padding: 10px">
-            <a class="anchorst" href="#mission" style="text-align: left"><h2>MISSION</h2></a> <br>
+      	<div class="flex-row" style="padding-bottom: 100px; padding-top: 75px">
+      	<img onclick="location.href='#cont1'" src="books.jpg" style="width: 100%; height: 400px; object-fit: cover; opacity: 0.7; border-radius: 50%" >
+        <div style="position: absolute; top: 180px; left: 120px"><h1 style="font-size: 60px; opacity: 1; font-family: flexa; color: #383E41">EngageMe</h1></div>
+        <div style="position: absolute; top: 300px; left: 130px"><h1 style="font-size: 20px; opacity: 1; font-family: begum; color: #383E41">No Child Left Behind</h1></div>
+    	</div>
+
+<!--         <div class="flex-column" style="background-color: #CBC0AD; padding: 10px">
+            <a class="anchorst" href="#mission"><h2>MISSION</h2></a> <br>
             <a class="anchorst" href="#vision"><h2>VISION</h2></a> <br>
-            <a class="anchorst" href="#approach" style="text-align: left"><h2>APPROACH</h2></a> <br>
+            <a class="anchorst" href="#approach" ><h2>APPROACH</h2></a> <br>
             <a class="anchorst" href="#strategy"><h2>STRATEGY</h2></a> <br>
-        </div>
-        <div style="margin-top: 40px">
+            
+       
+
+        </div> -->
+
+<!--         <div style="margin-top: 40px">
         </div>
         <div class="logo flex-row-center">
           <a href="index.html" style="text-align: center; color: #86A397; opacity: 5; padding: 10px">EngageMe</a>
         </div>
-        <div style="margin-top: 40px">
+        <div style="margin-top: 40px" #E5BE9E>
+        </div> -->
+        <div id='cont1' class="flex-row" style="padding-bottom: 25px; column-gap: 10%">
+        	<div onclick="location.href='#mission'" class="flex-column" style="width: 45%; height: 200px; background-color: #FBF7F1; padding: 20px; border:2px solid #F98560">
+        		<h3 style="font-size: 22px; opacity: 1; font-family: flexa; color: #383E41; text-align: center;"> Mission </h3>
+        		<p style="font-size: 15px; opacity: 1; font-family: flexa; color: #383E41; text-align: center;">Effectively determining & managing attention of the child whilst a session is being conducted to deliver enhanced learning outcomes.</p>
+        	</div>
+        	<div onclick="location.href='#vision'" class="flex-column" style="width: 45%; height: 200px; background-color: #FBF7F1; padding: 20px; border:2px solid #F98560">
+        		<h3 style="font-size: 22px; opacity: 1; font-family: flexa; color: #383E41; text-align: center;"> Vision </h3>
+        		<p style="font-size: 15px; opacity: 1; font-family: flexa; color: #383E41; text-align: center;">To develop an Intelligent Education Platform, “EngageMe” to offer personalised and evidence-based identification of attention level among SEN children</p>
+        		
+        	</div>
+        	
         </div>
-        <div id="mission" class="flex-row" style="background-color: #E5BE9E; padding: 10px">
+        <div id='cont2' class="flex-row" style="padding-bottom: 100px; column-gap: 10%">
+        	<div onclick="location.href='#approach'" class="flex-column" style="width: 45%; height: 200px; background-color: #FBF7F1; padding: 20px; border:2px solid #F98560">
+        		<h3 style="font-size: 22px; opacity: 1; font-family: flexa; color: #383E41; text-align: center;"> Approach </h3>
+        		<p style="font-size: 15px; opacity: 1; font-family: flexa; color: #383E41; text-align: center;">EngageMe strives to develop detailed contextual models of the psychological variables of interest, based on enriched user and activity models.</p>
+        	</div>
+        	<div onclick="location.href='#strategy'" class="flex-column" style="width: 45%; height: 200px; background-color: #FBF7F1; padding: 20px; border:2px solid #F98560">
+        		<h3 style="font-size: 22px; opacity: 1; font-family: flexa; color: #383E41; text-align: center;"> Strategy </h3>
+        		<p style="font-size: 15px; opacity: 1; font-family: flexa; color: #383E41; text-align: center;">Extracting cognitive data and implementing psychologically grounded analyzers into the engagement evaluation system.</p>
+        	</div>
+        	
+        </div>
+
+        <div id="mission" class="flex-row" style="background-color: #E8E4CF ; padding: 10px">
           <div class="flex-item flex-column" >
             <h2 class="add-top-margin">Mission: "No Child Left Behind"</h2>
-            <hr style="background-color: DarkSalmon">
+            <hr style="background-color: #F98560">
             <p class="text">
               85% of SEN parents believe that excelling in academics instills pride, self-confidence and leads to inclusiveness (as per Survey Conducted, Participate in survey).
             </p>
@@ -87,7 +121,7 @@
             </p>
           </div>
         </div>
-        <div class="flex-row" style="background-color: #E5BE9E; padding: 10px">
+        <div class="flex-row" style="background-color: #E8E4CF; padding-bottom: 25px">
           <div class="flex-item flex-column">
             <!-- <h2 class="add-top-margin">No Child Left Behind</h2> -->
             <!-- <hr> -->
@@ -98,10 +132,10 @@
           </div>
         </div>
 
-        <div id ="vision" class="flex-row" style="background-color: #86A397; padding: 10px">
+        <div id ="vision" class="flex-row" style="background-color: #FAF3D2; padding: 10px">
           <div class="flex-item flex-column">
             <h2 class="add-top-margin">Our Vision</h2>
-            <hr style="background-color: DarkSalmon">
+            <hr style="background-color: #F98560">
             <p class="text">
               There is plethora of online asynchronous content via Khan Academy, You tube for Education etc.  However, SEN children require SE-assisted delivery of online content, while SEs require continuous feedback of attention cues, which being essential is not available in the present collaboration tools.
             </p>
@@ -125,10 +159,10 @@
             </ul>
           </div>
         </div>
-        <div id="approach" class="flex-row" style="background-color: #E5BE9E; padding: 10px">
+        <div id="approach" class="flex-row" style="background-color: #E8E4CF; padding: 10px">
             <div class="flex-item flex-column">
               <h2 class="add-top-margin">Our Approach: "EngageMe"</h2>
-              <hr style="background-color: DarkSalmon">
+              <hr style="background-color: #F98560">
               <p class="text">
                 <img class="image image-wrap-text max-width-400" src="img/ourApproach.png">
                 <b>EngageMe</b> strives to develop detailed contextual models of the psychological variables of interest, based on enriched user and activity models.
@@ -137,10 +171,10 @@
             </div>
           </div>
 
-          <div id="strategy" class="flex-row" style="background-color: #86A397; padding: 10px">
+          <div id="strategy" class="flex-row" style="background-color: #FAF3D2; padding: 10px">
           <div class="flex-item flex-column">
             <h2 class="add-top-margin">Strategy</h2>
-            <hr style="background-color: DarkSalmon">
+            <hr style="background-color: #F98560">
             <ol class="nested">
               <li>EngageMe will advance the state of the art on behaviour understanding among children with ADHD by developing detailed contextual models of the psychological variables of interest based on enriched user and activity models.</li>
               <li>This will require an integrated collaboration between SEs and technical partners.</li>
@@ -158,14 +192,15 @@
     footer {
       text-align: center;
       padding: 10px;
-      background-color: rgb(0 0 0);
-      color: rgb(255 255 255);
+      background-color: #FAF3D2;
+      color: rgb(0,0,0);
+      font-family: flexa;
     }
     .anchorst{
         background-color: #86A397;
         color: black;
         padding: 14px 25px;
-        text-align: right;
+        text-align: center;
         text-decoration: none;
         display: inline-block;
         /*align-self: right;*/
